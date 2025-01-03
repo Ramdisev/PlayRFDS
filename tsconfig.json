@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            "./node_modules/@types",
+            "src/helper/types"
+        ]
+    },
+    "cucumber.features": [
+            "cypress/e2e/features/*.feature"
+        ], "cucumber.glue": [
+            "cypress/e2e/step_definitions/*.js"
+        ],
+    
+}
